@@ -4,18 +4,19 @@ This dataset is a proposed benchmark for measuring biases in Vision-Language mod
 
 ### Distribution of images in the different protected attribute groups
 
-|Attrib |Scenes| Label       |Count|
------------------------------------
-| Age   | 8    | Young       | 3748 |
-| Age   | 8    | Old         | 1186 |
-| Race  | 24   | Black       | 1024 |
-| Race  | 24   | Caucasian   | 1033 |
-| Race  | 24   | EastAsian   | 1095 |
-| Race  | 24   | Hispanic    |  948 |
-| Race  | 24   | Indian      |  834 |
-| Gender| 24   | Female      | 2529 |
-| Gender| 24   | Male        | 2405 |
-|-----------------------------------|
- 
+<table>
+<tr>
+<td>Attribute</td><td>Scenes</td><td>Label</td><td>Count</td>
+</tr>
+<tr><td>Age</td><td>8</td><td>Young</td><td>3748</td></tr>
+<tr><td>Age</td><td>8</td><td>Old</td><td>1186</td></tr>
+<tr><td>Race</td><td>24</td><td>Black</td><td>1024</td></tr>
+<tr><td>Race</td><td>24</td><td>Caucasian</td><td>1033</td></tr>
+<tr><td>Race</td><td>24</td><td>EastAsian</td><td>1095</td></tr>
+<tr><td>Race</td><td>24</td><td>Hispanic</td><td>948</td></tr>
+<tr><td>Race</td><td>24</td><td>Indian</td><td>834</td></tr>
+<tr><td>Gender</td><td>24</td><td>Female</td><td>2529</td></tr>
+<tr><td>Gender</td><td>24</td><td>Male</td><td>2405</td></tr>
+</table>
 
 ### Measuring mean Skew and mean Skew@k
